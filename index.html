@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>Music Web App</h1>
+    <button id="login-btn">Login with Spotify</button>
+    <div id="content">
+      <input type="text" id="search" placeholder="Search for songs or artists">
+      <button id="search-btn">Search</button>
+      <div id="results"></div>
+    </div>
+
+    <div id="mood-section">
+      <h2>Get Song Recommendations Based on Your Mood</h2>
+      <select id="mood-selector">
+        <option value="happy">Happy</option>
+        <option value="sad">Sad</option>
+        <option value="energetic">Energetic</option>
+        <option value="calm">Calm</option>
+      </select>
+      <button id="recommend-btn">Get Recommendations</button>
+      <div id="recommendations"></div>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
